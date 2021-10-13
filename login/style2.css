@@ -1,0 +1,109 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    background: #d6d6d6;
+}
+
+/* --- LogIn Form --- */
+.login_form{
+    width: 100%;
+    height: 100%;
+
+    margin-top: 20%;
+}
+.span_txt{
+    width: 120px;
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.input_txt{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn_submit{
+	padding: 5px 20px;
+	border-radius: 6px;
+    margin-top: 15px;
+	background: rgb(255, 255, 255);
+}
+.btn_submit:hover{
+	background: #74a7b7;
+}
+/*    Login    */
+.login_container{
+    margin-top: 200px;
+}
+.login_container a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    display: list-item;
+
+    margin-top: 10px;
+}
+.login_container a:hover{
+    color: rgb(61, 61, 61);
+    font-size: 22px;
+}
+/* ------------------- */
+.select_cat{
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+    background: #74a7b7;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.btn_back{
+    border: 1px solid rgb(54, 54, 54);
+    font-size: 15px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    background: #74a7b7;
+    padding: 5px 30px;
+}
+.file_upload_button{
+    font-size: 14px;
+}
+/*      Categories     */
+.cat_container{
+    margin-top: 100px;
+}
+/*       Product       */
+.product_container{
+    margin-top: 50px;
+}
+.product_container img{
+    height: 180px;
+}
+/* ------------------- */
+.orders_container{
+    text-align: left;
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+.orders{
+    display: inline-block;
+    border-bottom: 2px solid #74a7b7;
+    width: 100%;
+}
+.orders img{
+    height:130px;
+}
+.span_txt2{
+    font-size: 20px;
+}
+
+/* ------------------- */
